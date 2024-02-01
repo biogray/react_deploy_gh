@@ -58,7 +58,7 @@ function say (a) {
 
         <div>
            <br /> 
-           Have a beer?  {`____`}   
+           Have a beer?  {`____`} {`${{secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS}}`}  
            <FaBeer />
            <FaPencilAlt />
         </div>
